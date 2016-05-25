@@ -1,0 +1,24 @@
+
+<html>
+    <head>
+        <title>Week 8 Test</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <script type="text/javascript" src="week8.js"></script>
+    </head>
+    <body onload="init();">
+        <h4>Online Bread Vendors</h4>
+        
+        <form action="CheckOutServlet">
+            Place Your Order <br/>
+            <select name="bread_select" id="bread_select" size="3" multiple="multiple">
+                <option value="Rye"> Rye ($2.75)</option>
+                <option value="White"> White ($1.50)</option>
+                <option value="Wheat"> Wheat ($2.70)</option>  
+            </select>
+            <br/>
+            <input type="submit" value="Submit"/>
+        </form>
+    </body>
+</html>
+
